@@ -57,4 +57,36 @@ You can find your Pi's IP address by:
 
 ```bash
 hostname -I
+```
+
+## 🔐 Step 4: Connect via SSH
+
+From another computer (Linux/macOS/Windows PowerShell), run:
+```sh
+ssh pi@<IP_ADDRESS>
+
+```
+Default credentials (if not changed):
+
+- Username: pi
+
+- Password: raspberry
+
+
+## 🖥️ Step 5: Access via VNC (Remote Desktop)
+1. On the Raspberry Pi, enable the VNC Server:
+```sh
+sudo raspi-config
+```
+
+Navigate to `Interface Options > VNC > Enable`
+
+2. Install VNC Viewer on your main computer, use  https://www.realvnc.com/en/connect/download/viewer/
+3. Open VNC Viewer and connect to:
+```sh
+<IP_ADDRESS>:1
+```
+   
+
+
 
