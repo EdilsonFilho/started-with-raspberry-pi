@@ -51,6 +51,7 @@ This guide will walk you through the initial setup of your Raspberry Pi, includi
 ---
 
 ## 🔗 Step 3: Find Your Pi’s IP Address
+We'll now present two ways to find yout raspberry pi IP. If you already know the IP, skip to setp 4. Method 1 is using a monitor, keyboard and mouse, see step 3.1 . To find it **without** these peripherals, go to step 3.2
 
 3.1 Using monitor, keyboard, and mouse
 You can find your Pi's IP address by:
@@ -62,8 +63,8 @@ You can find your Pi's IP address by:
 ```bash
 hostname -I
 ```
-
-3.2 The hardcore way, without a monitor, mouse, or keyboard. 😎
+<details>
+<summary>3.2 The hardcore way, without a monitor, mouse, or keyboard. 😎</summary>
 
 (*Note: this way only works if you have completed step 2.1 !!!*)
 
@@ -95,7 +96,7 @@ Nmap scan report for 192.168.0.105
 Host is up.
 MAC Address: XX:XX:XX:XX:XX:XX (Intel Corporation)
 ```
-
+</details>
 
 
 ## 🔐 Step 4: Connect via SSH
