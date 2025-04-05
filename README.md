@@ -64,7 +64,8 @@ hostname -I
 ```
 
 3.2 The hardcore way, without a monitor, mouse, or keyboard. 😎
-*Note: this way only works if you have completed step 2.1 !!!*
+
+(*Note: this way only works if you have completed step 2.1 !!!*)
 
 A **cooler way** that doesn't require using an interface (plugging HDMI cables into your Raspberry Pi and all that boring stuff) is if you're connected to the same Wi-Fi network as the Raspberry Pi, you can use the following command to scan all the devices connected to the network and find out the IP address of your Raspberry Pi.
 
