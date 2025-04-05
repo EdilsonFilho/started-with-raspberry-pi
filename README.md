@@ -34,6 +34,9 @@ This guide will walk you through the initial setup of your Raspberry Pi, includi
    - Set hostname
    - Configure **Wi-Fi**
    - Set username & password
+   - Configure wireless (SSID and password)
+   - Time zone
+   - Keyboard layout
 
 6. **Write the image** to the microSD card and wait for it to finish.
 
