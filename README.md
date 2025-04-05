@@ -62,6 +62,37 @@ You can find your Pi's IP address by:
 hostname -I
 ```
 
+A **cooler way** that doesn't require using an interface (plugging HDMI cables into your Raspberry Pi and all that boring stuff) is if you're connected to the same Wi-Fi network as the Raspberry Pi, you can use the following command to scan all the devices connected to the network and find out the IP address of your Raspberry Pi.
+
+```sh
+ip a
+```
+Look for the Wi-Fi network interface (usually named wlan0 or wlp...) and look for a line similar to:
+```
+inet 192.168.0.105/24
+
+```
+Using nmap to scan others devices in your network
+```sh
+sudo apt install nmap
+```
+```
+nmap -sn 192.168.0.105/24 (use your informations)
+```
+This command will list all connected devices along with their respective IP addresses and, if possible, hostnames. Example output:
+
+```
+Nmap scan report for raspberrypi.local (192.168.0.101)
+Host is up (0.0050s latency).
+MAC Address: B8:27:EB:XX:XX:XX (Raspberry Pi Foundation)
+
+Nmap scan report for 192.168.0.105
+Host is up.
+MAC Address: XX:XX:XX:XX:XX:XX (Intel Corporation)
+```
+
+
+
 ## 🔐 Step 4: Connect via SSH
 
 From another computer (Linux/macOS/Windows PowerShell), run:
