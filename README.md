@@ -96,6 +96,7 @@ Nmap scan report for 192.168.0.105
 Host is up.
 MAC Address: XX:XX:XX:XX:XX:XX (Intel Corporation)
 ```
+Voilà! Identify the IP address f the raspberry pi and use it in step 4. 
 </details>
 
 
