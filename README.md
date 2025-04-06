@@ -72,8 +72,16 @@ A **cooler way** that doesn't require using an interface (plugging HDMI cables i
 
 After you have created the card with Debian (I haven't tested it for other linux distributions), remove the memory card and reinsert it into your computer (don't do this on the raspberry pi yet). 
 
-- Cline the `.env.example` afile and rename it to `.env`
-- Enter the real network credentials and username of your machine (not raspberry's). 
+- Clone the `.env.example` afile and rename it to `.env`
+- Enter the real network credentials and username of your machine (not raspberry's).
+
+```
+.
+├── setup_rpi_headless.sh   # Main setup script
+ ── .env.example            # Config file example
+└── .env                    # Config file with credentials (creat it!)
+
+```
 
 ```sh
 sudo ./setup_rpi_headless.sh
