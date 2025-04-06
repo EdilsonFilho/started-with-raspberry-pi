@@ -2,6 +2,8 @@
 
 This guide will walk you through the initial setup of your Raspberry Pi, including flashing the OS, booting for the first time, and connecting remotely via **SSH** or **VNC**.
 
+Special goal: Complete headless setup of the Raspberry Pi, without ever needing a mouse, keyboard or monitor 🧠⚡ (See 3.2)
+
 ---
 
 ## 📦 What You’ll Need
