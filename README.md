@@ -70,6 +70,23 @@ hostname -I
 
 A **cooler way** that doesn't require using an interface (plugging HDMI cables into your Raspberry Pi and all that boring stuff) is if you're connected to the same Wi-Fi network as the Raspberry Pi, you can use the following command to scan all the devices connected to the network and find out the IP address of your Raspberry Pi.
 
+After you have created the card with Debian (I haven't tested it for other linux distributions), remove the memory card and reinsert it into your computer (don't do this on the raspberry pi yet). 
+
+- Cline the `.env.example` afile and rename it to `.env`
+- Enter the real network credentials and username of your machine (not raspberry's). 
+
+```sh
+sudo ./setup_rpi_headless.sh
+```
+Expected response:
+
+![image](https://github.com/user-attachments/assets/6833cfd7-b358-4d0a-b56e-aba073ff3210)
+
+
+</details>
+
+<details>
+<summary>3.3 Scanning the wifi network  (Optional) </summary>
 ```sh
 ip a
 ```
