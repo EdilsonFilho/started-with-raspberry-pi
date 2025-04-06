@@ -90,6 +90,7 @@ Expected response:
 
 ![image](https://github.com/user-attachments/assets/6833cfd7-b358-4d0a-b56e-aba073ff3210)
 
+Reinsert the memory card into the raspberry pi. Wait a few minutes and then try step 4. 
 
 </details>
 
